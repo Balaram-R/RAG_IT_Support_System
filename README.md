@@ -30,25 +30,23 @@ Technology Stack
 •	Ollama
 •	Llama 3.2
 •	Sentence Transformers
-Project Structure
+## Project Structure
+
+```text
 IT-Support-Knowledge-Assistant/
-│
 ├── app.py
 ├── ingest.py
 ├── rag_engine.py
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-│
 ├── data/
 │   ├── troubleshooting-guides/
 │   ├── networking/
 │   └── documentation/
-│
 ├── chroma_db/
-│
 └── assets/
-
+```
 Installation
 Create Virtual Environment
 python -m venv venv
@@ -72,6 +70,9 @@ python ingest.py
 Launch Application
 streamlit run app.py
 
+## Project Structure
+
+```text
 Architecture
 Documents
     │
@@ -95,7 +96,6 @@ Llama 3.2 (Ollama)
     │
     ▼
 Generated Answer
+```
 
-
-                                                                                           Author
-Balaram R
+Author: <br> Balaram R
