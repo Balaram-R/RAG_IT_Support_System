@@ -1,10 +1,6 @@
-streamlit
-langchain
-langchain-community
-langchain-ollama
-faiss-cpu
-sentence-transformers
-unstructured
-pypdf
-python-dotenv
-tqdm
+streamlit==1.62.0
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+sentence-transformers==6.0.0
+chromadb==1.5.9
+ollama==0.6.2
