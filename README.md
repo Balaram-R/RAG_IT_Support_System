@@ -1,7 +1,9 @@
 IT Support Knowledge Assistant
 
 A local Retrieval-Augmented Generation (RAG) application that helps users troubleshoot IT and networking issues using a custom knowledge base.
+
 The application combines semantic search with a local Large Language Model (LLM) to provide accurate answers based on technical documentation, troubleshooting guides, and support knowledge bases.
+
 Features
 •	Local LLM powered by Ollama and Llama 3.2
 •	ChromaDB vector database for semantic search
